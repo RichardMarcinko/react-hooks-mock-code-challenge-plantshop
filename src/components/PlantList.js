@@ -1,7 +1,8 @@
 import React from "react";
 import PlantCard from "./PlantCard";
+import NewPlantForm from "./NewPlantForm";
 
-function PlantList({plantArr}) {
+function PlantList({plantArr, setPlantArr}) {
   const mappedPlantArr = plantArr.map((plantObj) => {
     return (
       // console.log(plantObj)
@@ -16,6 +17,7 @@ function PlantList({plantArr}) {
   return (
     <ul className="cards">{/* render PlantCards components in here */}
       {mappedPlantArr}
+      {/* <><NewPlantForm plantArr={plantArr} setPlantArr={setPlantArr} /></> */}
     </ul>
   );
 }

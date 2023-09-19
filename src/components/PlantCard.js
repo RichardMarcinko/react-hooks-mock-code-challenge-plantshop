@@ -7,7 +7,7 @@ function PlantCard(props) {
     <li className="card">
       <img src={props.image} alt={props.name} />
       <h4>{props.name}</h4>
-      <p>Price: {props.price}</p>
+      <p>Price: ${props.price}</p>
       {inStock ? (
         <button onClick={(e) => setInStock(!inStock)} className="primary" >In Stock</button>
       ) : (

@@ -41,6 +41,18 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Glowy",
+      "image": "https://www.gardeningknowhow.com/wp-content/uploads/2019/08/glowing-plant.jpg",
+      "price": "99.99",
+      "id": 8
+    },
+    {
+      "name": "Glowy the conqueror",
+      "image": "https://i.etsystatic.com/15099909/r/il/14b28b/4159679063/il_570xN.4159679063_qq2y.jpg",
+      "price": "1000000",
+      "id": 9
     }
   ]
 }

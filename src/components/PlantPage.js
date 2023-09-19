@@ -21,9 +21,9 @@ function PlantPage() {
 
   return (
     <main>
-      <NewPlantForm />
+      <NewPlantForm plantArr={plantArr} setPlantArr={setPlantArr} />
       <Search setSearchPlants={setSearchPlants} />
-      <PlantList plantArr={filteredPlantArr} />
+      <PlantList plantArr={filteredPlantArr} setPlantArr={setPlantArr} />
     </main>
   );
 }
